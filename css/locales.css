@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'peachesandcreamregularw00Rg';
+    src: url('../fonts/peaches_and_cream_regular_w00-webfont.eot');
+    src: url('../fonts/peaches_and_cream_regular_w00-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/peaches_and_cream_regular_w00-webfont.woff2') format('woff2'),
+         url('../fonts/peaches_and_cream_regular_w00-webfont.woff') format('woff'),
+         url('../fonts/peaches_and_cream_regular_w00-webfont.svg#peachesandcreamregularw00Rg') format('svg');
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+}
+
+
+
+.locales{
+    margin-bottom: 50px;
+}
+h2{
+    font-family: 'peachesandcreamregularw00Rg';
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.locales h3{
+    color: white;
+    font-family: 'robotoregular';
+    font-size:25px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+
+.map-2{
+    float: right;
+}
+.google-maps{
+    box-sizing:border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: 45%;
+}
+
+
+.info h4{
+    color: white;
+    font-family: 'robotoregular';
+    font-size: 20px;
+    margin-top: 10px;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.info p{
+    margin-top: 5px;
+    margin: 0;
+    text-align: left;
+}
+
+.info img{
+    margin-right: 5px;
+    vertical-align: top
+}

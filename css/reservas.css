@@ -1,0 +1,175 @@
+/** Estilos reservas ***/
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+}
+
+@font-face {
+	font-family: 'peachesandcreamregularw00Rg';
+    src: url('../fonts/peaches_and_cream_regular_w00-webfont.eot');
+    src: url('../fonts/peaches_and_cream_regular_w00-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/peaches_and_cream_regular_w00-webfont.woff2') format('woff2'),
+         url('../fonts/peaches_and_cream_regular_w00-webfont.woff') format('woff'),
+         url('../fonts/peaches_and_cream_regular_w00-webfont.svg#peachesandcreamregularw00Rg') format('svg');
+}
+
+main h2{
+	font-family: 'peachesandcreamregularw00Rg';
+	font-weight: lighter;
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+main p{
+	font-family: 'robotoregular';
+	font-size: 20px;
+	margin: 0;
+}
+form{
+	width: 50%;
+	margin:30px auto 0 auto;
+	font-family: 'robotoregular';
+}
+
+.row-form input, .row-form textarea,
+.row-form label{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.row-form label{
+	color: white;
+	text-decoration: none;
+}
+
+textarea{
+	resize: none;
+	height: 100px;
+}
+
+label{
+	font-size: 18px;
+	text-align: left;
+}
+
+form .row-form{
+	margin-bottom: 10px;
+}
+
+input, textarea{
+	border: 1px solid #D8D8D8;
+	transition: border-bottom 1s linear;
+	-webkit-transition: border-bottom 1s linear;
+	-moz-transition: border-bottom 1s linear;
+	-o-transition: border-bottom 1s linear;
+	-ms-transition: border-bottom 1s linear;
+}
+
+input::-webkit-input-placeholder{
+	color: #888484;
+	font-family: 'robotoregular';
+}
+
+textarea::-webkit-textarea{
+	font-family: 'robotoregular';
+}
+.row-form label{
+	margin-bottom: 10px;
+}
+
+.row-form textarea{
+	resize: none;
+}
+
+.row-form input,
+.row-form textarea{
+	padding: 8px;
+	outline: none;
+	border-radius: 5px;
+	font-family: 'robotoregular';
+}
+
+.row-form input, .row-form textarea, 
+.row-form label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	background: #4A3D35;
+	border-radius: 5px;
+	border:0px;
+	color:white;
+	font-size: 18px;
+	padding: 10px;
+	width: 250px;
+	cursor: pointer;
+	margin-bottom: 58px;
+}
+
+button:hover{
+	background: #382E29;
+	transition: .5s linear;
+}
+
+/*legend {
+	font-size: 20px;
+}
+
+#pago {
+	margin: auto;
+	/*background: #693;
+	color: white;
+	font-size: 16px;
+	padding: 30px;
+	width: 600px;
+	/*border: solid 5px LightSteelBlue;
+}
+
+#pago fieldset {
+	border: none;
+	text-align: center;
+}
+
+#pago label {
+	/*float: left;
+}
+
+#pago input{
+	font-size: 12px;
+	background: white;
+	/*border: solid 1px LightSteelBlue;
+	float: right;
+	margin-right: 15px;
+	width: 300px;
+}
+
+#pago ul li {
+	line-height: 25px;
+	list-style: none;
+}
+
+#pago [required] {
+	/*border: solid 1px #7ACC28;
+}
+
+input:required {
+	/*outline: 1px solid; /* #7ACC28;
+}
+
+#enviar {
+	width: 200px;
+	text-align: center;
+}*/

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+}
+
+@font-face {
+	font-family: 'peachesandcreamregularw00Rg';
+    src: url('../fonts/peaches_and_cream_regular_w00-webfont.eot');
+    src: url('../fonts/peaches_and_cream_regular_w00-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/peaches_and_cream_regular_w00-webfont.woff2') format('woff2'),
+         url('../fonts/peaches_and_cream_regular_w00-webfont.woff') format('woff'),
+         url('../fonts/peaches_and_cream_regular_w00-webfont.svg#peachesandcreamregularw00Rg') format('svg');
+}
+
+main h2{
+	font-family: 'peachesandcreamregularw00Rg';
+	color: white;
+	font-size: 70px;
+	font-weight: lighter;
+	margin-bottom: 0;
+	margin-top: 30px;
+	text-align: center;
+}
+main p{
+	font-family: 'robotoregular';
+	font-size: 20px;
+	margin: 0;
+}
+form{
+	font-family: 'robotoregular';
+	margin:30px auto 0 auto;
+	width: 50%;
+}
+
+.row-form input, .row-form textarea,
+.row-form label{
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+}
+
+.row-form label{
+	color: white;
+	text-decoration: none;
+}
+
+textarea{
+	height: 100px;
+	resize: none;
+}
+
+label{
+	font-size: 18px;
+	text-align: left;
+}
+
+form .row-form{
+	margin-bottom: 10px;
+}
+
+input, textarea{
+	border: 1px solid #D8D8D8;
+	transition: border-bottom 1s linear;
+	-moz-transition: border-bottom 1s linear;
+	-ms-transition: border-bottom 1s linear;
+	-o-transition: border-bottom 1s linear;
+	-webkit-transition: border-bottom 1s linear;
+}
+
+input::-webkit-input-placeholder{
+	color: #888484;
+	font-family: 'robotoregular';
+}
+
+textarea::-webkit-textarea{
+	font-family: 'robotoregular';
+}
+.row-form label{
+	margin-bottom: 10px;
+}
+
+.row-form textarea{
+	resize: none;
+}
+
+.row-form input,
+.row-form textarea{
+	border-radius: 5px;
+	font-family: 'robotoregular';
+	outline: none;
+	padding: 8px;
+}
+
+.row-form input, .row-form textarea, 
+.row-form label {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+form button {
+	background: #4A3D35;
+	border-radius: 5px;
+	border:0px;
+	color:white;
+	cursor: pointer;
+	display: block;
+	font-size: 18px;
+	margin-bottom: 58px;
+	margin-top: 30px;
+	margin: 0 auto;
+	padding: 10px;
+	width: 80px;
+}
+
+button:hover{
+	background: #382E29;
+	transition: .5s linear;
+}

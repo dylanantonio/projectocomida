@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comida Criolla</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css">	
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/reservas.css">
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/calendario.js"></script>
+	
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h1 class="logo"><a href="index.html"><img src="img/logo.png"></a></h1>
+			<nav>
+				<ul>
+					<li><a href="menu.html">Menú</a></li>
+					<li><a href="reservas.html">Reservas</a></li>
+					
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="contenedor">
+			<h2>Reservas</h2>
+			<p>Aqui puede hacer su reservacion para el dia y hora establecido.</p>
+			<form action="" method="post">
+
+					<p>Detalle de Reservas</p>
+					<div class="row-form">
+						<label for="fecha">Fecha</label>
+						<input id="fecha" name="fullname" type="text" placeholder="Escribe fecha">
+					</div>
+					<div class="row-form">
+						<label for="hora">Hora</label>
+						<input id="hora" name="fullname" type="text" placeholder="Escribe la hora">
+					</div><br>
+					<hr><br>
+
+					<p>Datos del Cliente</p>
+					<div class="row-form">
+						<label for="nombre">Nombre</label>
+						<input id="nombre" name="nombre" type="text" placeholder="Nombre Completo" required>
+					</div>
+					<div class="row-form">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="email" placeholder = "ejemplo@hotmail.com">
+					</div>
+					<div class="row-form">
+						<label for="telefono">Telefono</label>
+						<input id="telefono" name="telefono" type="tel" placeholder="Ejem. +4566777" required>
+					</div>
+					<div class="row-form">
+						<label for="mensaje">Mensaje</label>
+						<textarea id="mensaje" name="mensaje" type="text" placeholder="Ingrese su comentario"></textarea> 
+					</div>				
+					<button type="submit">Enviar Solicitud de Reserva</button>
+			</form>
+		</section>				
+	</main>
+
+	<footer>
+		<section class="contenedor">
+			<p>Bienvenido al mejor restaurante de cocina clásica peruana. La gastronomía del Perú, una de las de mayor personalidad en el mundo, tiene un cálido escenario en nuestro Restaurante Cinco Tenedores. El aroma de la comida de esta cocina, embruja al visitante con la magia de sus deliciosos sabores.
+			En Brujas de Cachiche ofrecemos una variedad de salones privados y una amplia gama de alternativas culinarias con lo más sabroso de la afamada Gastronomía Peruana</p>
+		</section>
+	</footer>
+</body>
+</html>
